@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "Alan Sans", sans-serif;
+    background-color: #0d1b2a;
+    color: #E0E1DD;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #f8f9fa; */
+    padding: 10px 20px;
+    /* Adds some space around the header */
+}
+
+.nav {
+    margin: auto;
+    margin-right: 50px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: #778DA9;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 25px;
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.nav a:hover {
+    color: #E0E1DD;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.logo img {
+    display: block;
+    margin: 8px 0px 0px 60px;
+}
+
+.vid h1{
+    font-size: 40px;
+    margin: 5% 0px 20px 135px;
+}
+
+.vid p{
+    font-size: 20px;
+    margin: 20px auto 5%;
+    width: 80%;
+}
+
+.vid video{
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 0px 0px 50px;
+}
+
+.footnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+.socials i {
+    color: #778DA9;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.socials i:hover {
+    color: #E0E1DD;
+    transform: scale(1.1);
+}
+
+.footnav ul li a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: #778DA9;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    display: block;
+}
+
+.footnav a:hover {
+    color: #E0E1DD;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.exp {
+    color: #778DA9;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
